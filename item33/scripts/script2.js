@@ -7,5 +7,3 @@ function User(name, pass) {
 
 console.log(User("Jarek", "pass"));
 console.log(new User("Jarek", "pass"));
-
-
