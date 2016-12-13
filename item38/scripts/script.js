@@ -14,4 +14,8 @@ function SuperUser(name, pass) {
 
 SuperUser.prototype = Object.create(User.prototype);
 
-console.log(new SuperUser("Jarek", "123"));
+var user = new User("JR", "321");
+var superUser = new SuperUser("Jarek", "123");
+
+console.log(user);
+console.log(superUser);
