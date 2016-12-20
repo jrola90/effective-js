@@ -1,8 +1,8 @@
 function funA(arg0, fun) {
-    fun();
+    fun(arg0);
 }
 
-funA(10, funB.bind(null, 10));
+funA(10, funB);
 
 function funB(arg0) {
     console.log(arg0);
