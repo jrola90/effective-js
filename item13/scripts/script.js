@@ -3,7 +3,7 @@ function wrapElements(a) {
     for (var i = 0, n = a.length; i < n; i++) {
         (function () {
             var j = i;
-            result[i] = function () {
+            result[j] = function () {
                 return a[j];
             };
         })();
